@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#숨겨야 하는 파일(API Key가 포함된 파일, 컴퓨터 로컬 경로가 포함된 파일)
+.vscode/c_cpp_properties.json
+GPT 3.5/openai.cpp
