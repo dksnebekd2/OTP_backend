@@ -1,0 +1,11 @@
+###
+GET https://www.konyang.ac.kr/kor.do
+Conetent-Type: application/json
+
+###
+
+POST 경로 ...
+Content-Type: application/json
+{
+    "테스트 " : "테스트 데이터!"
+}
