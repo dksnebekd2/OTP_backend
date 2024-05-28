@@ -4,8 +4,12 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                // 아래 코드는 vcpkg에서 vcc를 다운받고 vcc가 들어있는 폴더의 경로를 나타내는 경로설정 코드.
-                "C:/Users/kyky4/vcpkg/installed/x64-windows/include" 
+                "C:/Users/kyky4/vcpkg/installed/x64-windows/include",
+                "C:/Users/kyky4/vcpkg/installed/x64-windows/include/curl",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                "C:/mingw64/include"
+
             ],
             "defines": [
                 "_DEBUG",
@@ -13,7 +17,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"
