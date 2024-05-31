@@ -1,7 +1,7 @@
 #include <iostream>
 #include "json.hpp"
-#include "analysis.cpp"
-#include "save_js.cpp"
+#include "analysis.h"
+#include "save_js.h"
 
 extern json analyzeTextWithGPT3(const std::string& text, const std::string& api_key);
 extern json analyzeFilesInDirectory(const std::string& directoryPath, const std::function<json(const std::string&, const std::string&)>& analyzeText);
@@ -19,9 +19,10 @@ int main() {
         return 1;
     }
 
-    json results = analyzeFilesInDirectory(directoryPath, [&apiKey](const std::string& text) -> json {
-        return analyzeTextWithGPT3(text, apiKey);
+    json results = analyzeFilesInDirectory(directoryPath, [&apiKey](const std::string& text, const std::string& dummy) -> json {
+    return analyzeTextWithGPT3(text, apiKey);
     });
+
 
     saveAnalysisResults("analysis_results.json", results);
     return 0;
