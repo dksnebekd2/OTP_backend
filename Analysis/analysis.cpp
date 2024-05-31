@@ -2,6 +2,7 @@
 #include <filesystem>
 #include <iostream>
 #include "json.hpp"
+#include "openai.h"
 
 // 파일 시스템 네임스페이스 사용 설정
 namespace fs = std::filesystem;
@@ -22,6 +23,12 @@ json analyzeFilesInDirectory(const std::string& directoryPath, const std::functi
     // 분석 대상 파일 목록
     std::vector<std::string> relevantFiles = {"LICENSE", "README.MD"};
     json resultJson;
+    std::string apikey = getenv("OPEN_API_KEY");
+
+    if (apikey.empty()) {
+        std::cerr << "API 키가 설정되지 않았습니다." << std::endl;
+        return resultJson;
+    }
 
     for (const auto& entry : fs::recursive_directory_iterator(directoryPath)) {
         try {
@@ -34,7 +41,7 @@ json analyzeFilesInDirectory(const std::string& directoryPath, const std::functi
                     std::string fileContents = readFileContents(entry.path().string());
                     if (!fileContents.empty()) {
                         // 파일 내용을 분석하고 결과를 JSON 객체에 추가
-                        json analysisResult = analyzeText(fileContents, getenv("OPEN_API_KEY"));
+                        json analysisResult = analyzeTextWithGPT3(fileContents, apikey);
                         resultJson[filename] = analysisResult;
                     }
                 }
