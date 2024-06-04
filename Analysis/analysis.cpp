@@ -1,8 +1,8 @@
 #include <fstream>
 #include <filesystem>
 #include <iostream>
-#include "json.hpp"
-#include "openai.h"
+#include "nlohmann/json.hpp"
+#include "openai.hpp"
 
 // 파일 시스템 네임스페이스 사용 설정
 namespace fs = std::filesystem;
@@ -23,12 +23,17 @@ json analyzeFilesInDirectory(const std::string& directoryPath, const std::functi
     // 분석 대상 파일 목록
     std::vector<std::string> relevantFiles = {"LICENSE", "README.MD"};
     json resultJson;
-    std::string apikey = getenv("OPEN_API_KEY");
+    const char* env_api_key = std::getenv("OPENAI_API_KEY");
 
-    if (apikey.empty()) {
+    if (!env_api_key) 
+    {
         std::cerr << "API 키가 설정되지 않았습니다." << std::endl;
         return resultJson;
     }
+    std::string api_key(env_api_key);
+
+    //OpenAI 인스턴스 시작 부분
+    auto& openai = openai::start(api_key);
 
     for (const auto& entry : fs::recursive_directory_iterator(directoryPath)) {
         try {
@@ -41,6 +46,12 @@ json analyzeFilesInDirectory(const std::string& directoryPath, const std::functi
                     std::string fileContents = readFileContents(entry.path().string());
                     if (!fileContents.empty()) {
                         // 파일 내용을 분석하고 결과를 JSON 객체에 추가
+                        nlohmann::json request = 
+                        {
+                            {"model", "text-davinci-003"},
+                            {"prompt", "Analyze the following code and determine its license:\n\n" + fileContents},
+                            {"max_tokens", 100} // 토큰 설정
+                        };
                         json analysisResult = analyzeTextWithGPT3(fileContents, apikey);
                         resultJson[filename] = analysisResult;
                     }

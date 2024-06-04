@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <curl.h>
-#include "json.hpp"
+#include "nlohmann/json.hpp"
 #include <exception>
 
 using json = nlohmann::json;
