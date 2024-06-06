@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kyky4\MyProject\OTP_Project\backend\build\CMakeFiles\d5e36b10b14302620b8e82e8363b1c41\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E5C911D6-9AB9-3550-AC8F-78AC0F061951}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

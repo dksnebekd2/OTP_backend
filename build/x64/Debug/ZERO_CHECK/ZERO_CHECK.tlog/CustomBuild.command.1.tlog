@@ -1,0 +1,10 @@
+^C:\USERS\KYKY4\MYPROJECT\OTP_PROJECT\BACKEND\BUILD\CMAKEFILES\D5E36B10B14302620B8E82E8363B1C41\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kyky4/MyProject/OTP_Project/backend -BC:/Users/kyky4/MyProject/OTP_Project/backend/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kyky4/MyProject/OTP_Project/backend/build/OTP_Backend.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
