@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.7.2+d6990bcfa(.NET Framework용)
-      빌드 시작: 2024-06-06 오후 7:30:39
+      빌드 시작: 2024-06-09 오후 3:57:43
       
       1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -44,8 +44,8 @@ events:
         CompilerIdC.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-        배치 파일이 아닙니다.
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
         "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
         "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
@@ -61,7 +61,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:01.83
+      경과 시간: 00:00:04.94
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -87,7 +87,7 @@ events:
       The output was:
       0
       msbuild 버전 17.7.2+d6990bcfa(.NET Framework용)
-      빌드 시작: 2024-06-06 오후 7:30:41
+      빌드 시작: 2024-06-09 오후 3:57:48
       
       1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -107,8 +107,8 @@ events:
         CompilerIdCXX.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-        배치 파일이 아닙니다.
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
         "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
         "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
@@ -124,7 +124,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:01.44
+      경과 시간: 00:00:03.48
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -143,8 +143,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-l6tzks"
-      binary: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-l6tzks"
+      source: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-397an8"
+      binary: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-397an8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -153,48 +153,48 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-l6tzks'
+        Change Dir: 'C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-397an8'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2cce9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9ff00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.7.2+d6990bcfa(.NET Framework용)
-        빌드 시작: 2024-06-06 오후 7:30:43
+        빌드 시작: 2024-06-09 오후 3:57:53
         
-        1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\cmTC_2cce9.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\cmTC_9ff00.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_2cce9.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_9ff00.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cce9.dir\\Debug\\\\" /Fd"cmTC_2cce9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ff00.dir\\Debug\\\\" /Fd"cmTC_9ff00.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.37.32822(x64)
           CMakeCCompilerABI.c
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cce9.dir\\Debug\\\\" /Fd"cmTC_2cce9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ff00.dir\\Debug\\\\" /Fd"cmTC_9ff00.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\cmTC_2cce9.exe" /INCREMENTAL /ILK:"cmTC_2cce9.dir\\Debug\\cmTC_2cce9.ilk" /NOLOGO /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-l6tzks/Debug/cmTC_2cce9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-l6tzks/Debug/cmTC_2cce9.lib" /MACHINE:X64  /machine:x64 cmTC_2cce9.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2cce9.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\cmTC_2cce9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\cmTC_9ff00.exe" /INCREMENTAL /ILK:"cmTC_9ff00.dir\\Debug\\cmTC_9ff00.ilk" /NOLOGO /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-397an8/Debug/cmTC_9ff00.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-397an8/Debug/cmTC_9ff00.lib" /MACHINE:X64  /machine:x64 cmTC_9ff00.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9ff00.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\cmTC_9ff00.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\cmTC_2cce9.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\cmTC_2cce9.write.1u.tlog" "cmTC_2cce9.dir\\Debug\\vcpkg.applocal.log"
-          'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-          배치 파일이 아닙니다.
-          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\cmTC_2cce9.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\cmTC_2cce9.write.1u.tlog" "cmTC_2cce9.dir\\Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\Debug\\cmTC_2cce9.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\cmTC_2cce9.write.1u.tlog" "cmTC_2cce9.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\cmTC_9ff00.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\cmTC_9ff00.write.1u.tlog" "cmTC_9ff00.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\cmTC_9ff00.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\cmTC_9ff00.write.1u.tlog" "cmTC_9ff00.dir\\Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\Debug\\cmTC_9ff00.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\cmTC_9ff00.write.1u.tlog" "cmTC_9ff00.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_2cce9.dir\\Debug\\cmTC_2cce9.tlog\\cmTC_2cce9.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tzks\\cmTC_2cce9.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_9ff00.dir\\Debug\\cmTC_9ff00.tlog\\cmTC_9ff00.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-397an8\\cmTC_9ff00.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:01.51
+        경과 시간: 00:00:03.55
         
       exitCode: 0
   -
@@ -234,8 +234,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-v0mip5"
-      binary: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-v0mip5"
+      source: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-woj821"
+      binary: "C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-woj821"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -245,48 +245,48 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-v0mip5'
+        Change Dir: 'C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-woj821'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a442e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13a8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.7.2+d6990bcfa(.NET Framework용)
-        빌드 시작: 2024-06-06 오후 7:30:45
+        빌드 시작: 2024-06-09 오후 3:57:58
         
-        1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\cmTC_a442e.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\cmTC_13a8e.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_a442e.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_13a8e.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a442e.dir\\Debug\\\\" /Fd"cmTC_a442e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_13a8e.dir\\Debug\\\\" /Fd"cmTC_13a8e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.37.32822(x64)
-          Copyright (c) Microsoft Corporation. All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a442e.dir\\Debug\\\\" /Fd"cmTC_a442e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_13a8e.dir\\Debug\\\\" /Fd"cmTC_13a8e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\cmTC_a442e.exe" /INCREMENTAL /ILK:"cmTC_a442e.dir\\Debug\\cmTC_a442e.ilk" /NOLOGO /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-v0mip5/Debug/cmTC_a442e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-v0mip5/Debug/cmTC_a442e.lib" /MACHINE:X64  /machine:x64 cmTC_a442e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a442e.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\cmTC_a442e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\cmTC_13a8e.exe" /INCREMENTAL /ILK:"cmTC_13a8e.dir\\Debug\\cmTC_13a8e.ilk" /NOLOGO /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-woj821/Debug/cmTC_13a8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kyky4/MyProject/OTP_Project/backend/build/CMakeFiles/CMakeScratch/TryCompile-woj821/Debug/cmTC_13a8e.lib" /MACHINE:X64  /machine:x64 cmTC_13a8e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_13a8e.vcxproj -> C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\cmTC_13a8e.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\cmTC_a442e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\cmTC_a442e.write.1u.tlog" "cmTC_a442e.dir\\Debug\\vcpkg.applocal.log"
-          'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-          배치 파일이 아닙니다.
-          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\cmTC_a442e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\cmTC_a442e.write.1u.tlog" "cmTC_a442e.dir\\Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\Debug\\cmTC_a442e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\cmTC_a442e.write.1u.tlog" "cmTC_a442e.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\cmTC_13a8e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\cmTC_13a8e.write.1u.tlog" "cmTC_13a8e.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\cmTC_13a8e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\cmTC_13a8e.write.1u.tlog" "cmTC_13a8e.dir\\Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\kyky4\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\Debug\\cmTC_13a8e.exe" "C:\\Users\\kyky4\\vcpkg\\installed\\x64-windows\\bin" "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\cmTC_13a8e.write.1u.tlog" "cmTC_13a8e.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_a442e.dir\\Debug\\cmTC_a442e.tlog\\cmTC_a442e.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0mip5\\cmTC_a442e.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_13a8e.dir\\Debug\\cmTC_13a8e.tlog\\cmTC_13a8e.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\kyky4\\MyProject\\OTP_Project\\backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-woj821\\cmTC_13a8e.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:01.49
+        경과 시간: 00:00:03.64
         
       exitCode: 0
   -
