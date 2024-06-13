@@ -19,6 +19,7 @@ Open source software is an essential component of modern software development. H
 - OpenAI API Key
 
 **Acknowledgements**
+
 This project was made possible thanks to the following open source projects:
 
 - [openai-cpp by olrea](https://github.com/olrea/openai-cpp): A C++ library for interacting with OpenAI's API.
